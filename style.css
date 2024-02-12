@@ -21,6 +21,21 @@ img{
   display: none;
   vertical-align: middle;
 }
+.my_search_icon{
+  display: inline-block;
+  width: 20px;
+  padding-top: 5px;
+}
+.my_icons{
+  padding: 0 10px;
+  font-size: 1rem;
+  
+}
+.my_icons_bell{
+  padding: 0 10px;
+  color: yellow; 
+}
+
 
 /* pagina centrale container */
 .my_col_left{
@@ -65,6 +80,7 @@ img{
 
 
 
+
 @media (max-width :576px ) {
   .my_upper_container{
     height: 250px;
@@ -81,6 +97,13 @@ img{
   }
   .my_img_mobile{
     display: block;
+  }
+  .my_icons_bell{
+    display: block;
+    font-size: 1.3rem;
+  }
+  .my_icons{
+    display: none;
   }
 
   
