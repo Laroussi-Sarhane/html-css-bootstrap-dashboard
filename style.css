@@ -14,6 +14,14 @@ body{
 .my_header{
   height: 80px;
 }
+img{
+  max-width: 100%;
+}
+.my_img_mobile{
+  display: none;
+  vertical-align: middle;
+}
+
 /* pagina centrale container */
 .my_col_left{
   height: 100%;
@@ -31,10 +39,19 @@ body{
 .my_upper_container{
   height:90px;
 }
+/* da qui inizia la perte interna */
 .my_main_content{
   height:calc(100% - 90px);
   overflow-y: scroll;
   /* main contant sta apposto */
+}
+.my_inside_container{
+  height: 100vh;
+  /* questa è un altezza di prova  */
+}
+.my_provvisory{
+  width: 100%;
+  height: 300px;
 }
 
 
@@ -51,8 +68,20 @@ body{
 @media (max-width :576px ) {
   .my_upper_container{
     height: 250px;
-
+  }
+  .my_col_left{
+    width: 90px;
+  }
+  .my_col_right{
+    width: calc(100% - 90px);
     
   }
+  .my_img_desktop{
+    display: none;
+  }
+  .my_img_mobile{
+    display: block;
+  }
+
   
 }
