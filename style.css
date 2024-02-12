@@ -32,7 +32,27 @@ body{
   height:90px;
 }
 .my_main_content{
-  height:calc(100% - 170px);
-  overflow: scroll;
+  height:calc(100% - 90px);
+  overflow-y: scroll;
   /* main contant sta apposto */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width :576px ) {
+  .my_upper_container{
+    height: 250px;
+
+    
+  }
+  
 }
