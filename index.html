@@ -20,7 +20,7 @@
     <div class="container-fluid">
       
       <div class="row">
-        <div class="col-2 col-md-2 col-xl-3 debug">
+        <div class="col-2 col-md-2 col-xl-3 ">
 
           <img class="my_img_desktop" src="img/logo.svg" width="150px"
           height="100%"
@@ -30,15 +30,15 @@
            
 
         </div>
-        <div class="col-8 col-md-8 col-xl-6 debug">
+        <div class="col-8 col-md-8 col-xl-6 ">
 
           <div class="input-group py-3">
-            <span class="my_search_icon debug"><i class="fa-solid fa-magnifying-glass  "></i></span>
+            <span class="my_search_icon "><i class="fa-solid fa-magnifying-glass  "></i></span>
             <input type="text" class="form-control" placeholder="prova a cercare:Lezioni di laravel" aria-label="Username" aria-describedby="basic-addon1">
           </div>
 
         </div>
-        <div class="col-2 col-md-2 col-xl-3 debug d-flex justify-content-end py-4 ">
+        <div class="col-2 col-md-2 col-xl-3  d-flex justify-content-end py-4 ">
 
           <div class="my_icons">
             <i class="fa-solid fa-bars"></i>
@@ -65,27 +65,135 @@
   </header>
 
   <!-- contenitore pagina -->
-  <div class="ls_container debug d-flex ">
+  <div class="ls_container  d-flex vh-100 ">
 
-    <div class="my_col_left debug">
+    <div class="my_col_left my_col_color_1 flex-column justify-content-between  ">
+
+       <div>
+         <div class="d-flex pt-5  px-4 text-white">
+           <div class="my_size_icon">
+             <i class="fa-solid fa-house"></i>
+           </div>
+           <div class="my_name_icon">
+             <P class="px-2 ">HOME</P>
+           </div>
+         </div>  
+   
+         <div class="d-flex py-2  px-4 text-white">
+           <div class="my_size_icon">
+             <i class="fa-solid fa-chart-simple"></i>
+           </div>
+           <div class="my_name_icon">
+             <P class="px-2 ">stats</P>
+           </div>
+         </div>  
+   
+         <div class="d-flex py-2  px-4 text-white">
+           <div class="my_size_icon">
+             <i class="fa-solid fa-signal"></i>
+           </div>
+           <div class="my_name_icon">
+             <P class="px-2 ">signal</P>
+           </div>
+         </div> 
+       </div>
+
+       <div class="m-auto ">
+         <div class="d-flex py-2 px-4 text-white">
+           <div class="my_size_icon">
+            <i class="fa-solid fa-gear"></i>
+           </div>
+           <div class="my_name_icon">
+             <P class="px-2 ">admin</P>
+           </div>
+         </div> 
+       </div>
+
+        
+
 
 
     </div>
-    <div class="my_col_right debug">
+    <div class="my_col_right ">
       <!-- questa è tutta la colonna di destra -->
 
-      <div class="my_upper_container debug">
+      <div class="my_upper_container ">
         <!-- questa è la parte sopra della colonna di destra -->
         <div class="container-fluid ">
 
-          <div class="row">
-            <div class="col-12  col-sm-6 col-xl-6 debug">
+          <div class="row my_col_color_2">
+            <div class="col-12  col-sm-6 col-xl-6 my_col_color_2">
+
+              <div class="d-flex w-100 ">
+
+                <div class="fw-bold text-white py-2 ">
+                  <h3>BOOLEAN</h3>
+                </div>
+
+                <div>
+                  <span class="badge rounded-pill text-bg-light mx-2 my-3  px-2 ">piano blaze</span>
+                  
+                </div>
+
+              </div>
+
+              <div class="d-flex mb-2 w-100  ">
+
+                <div class="d-flex ">
+                  <span class="badge rounded-pill text-bg-light mx-2 my-2  px-2 ">3 app</span>
+
+                  <div class="d-flex my-2 mx-1  text-white ">
+                    <i class="fa-solid fa-chevron-right"></i>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+                  
+                </div>
+
+                <div>
+                  <span class="badge rounded-pill text-bg-light mx-1  my-2  px-2  ">bollean mobile app</span>
+                  
+                </div>
+
+                <div>
+                  <span class="badge rounded-pill text-bg-light mx-1 my-2  px-2 ">boolean mobile app big</span>
+                  
+                </div>
+
+                
+
+                <div>
+                  <span class="badge rounded-pill text-bg-light mx-1 my-2  px-2 ">piano boolean big</span>
+                  
+                </div>
+
+              </div>
 
             </div>
-            <div class="col-12 col-sm-3 col-xl-4 debug">
+            <div class="col-12 col-sm-3 col-xl-4 ">
+              <div class="text-white mt-3  text-start w-100  ">
+                <p>studenti online negli ultimi 30 minuti</p>
+              </div>
+
+              <div class="text-white fw-bold text-start ">
+                <p>125</p>
+              </div>
 
             </div>
-            <div class="col-12 col-sm-3 col-xl-2 debug">
+            <div class="col-12 col-sm-3 col-xl-2 ">
+
+              <div class="d-flex mt-3  ">
+
+                <div class="text-white text-start ">
+                  <p>Nuovo studente</p>
+                </div>
+
+                <div class="text-white mx-1 w-100 ">
+                  <button type="button" class="btn btn-outline-dark">
+                    <i class="fa-solid fa-plus"></i>
+                  </button>
+                </div>
+
+              </div>
 
             </div>
           </div>
@@ -101,7 +209,7 @@
 
           <div class="row row-cols-sm-1  row-cols-md-2 row-cols-lg-2  ">
 
-            <div class="col-md-12 col-lg-8 col-xl-8 col-  debug  ">
+            <div class="col-md-12 col-lg-8 col-xl-8 col-  debug my_view_small ">
                <!--questa è quella di sinistra  -->
                <div  class="my_provvisory debug">
 

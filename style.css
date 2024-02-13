@@ -1,7 +1,7 @@
 [class^="container"],[class^="col"]{
-  background-color: rgba(255, 0, 0, 0.3);
+  /* background-color: rgba(255, 0, 0, 0.3);
   border: 1px solid black;
-  min-height: 80px;
+  min-height: 80px; */
 }
 body{
   font-family: 'Roboto', sans-serif;
@@ -79,6 +79,13 @@ img{
 .row .my_row{
   width: 40%;
 }
+.my_col_color_1{
+  background-color: rgb(2, 2, 75);
+}
+.my_col_color_2{
+  background-color: rgb(40, 40, 243);
+}
+
 
 
 
@@ -115,6 +122,15 @@ img{
   }
   .my_icons{
     display: none;
+  }
+  .my_name_icon{
+    display: none;
+  }
+  .my_size_icon{
+    font-size: 1.5rem;
+  }
+  .my_view_small{
+    width: 100vw;
   }
 
   
