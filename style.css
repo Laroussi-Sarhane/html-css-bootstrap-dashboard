@@ -132,6 +132,9 @@ img{
   .my_view_small{
     width: 100vw;
   }
+  .my_data_none{
+    display: none;
+  }
 
   
 }
